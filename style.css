@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(53, 51, 51);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.headerA{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(53, 51, 51);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    color: white;
+}
+
+.menuA{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(129, 194, 238), rgb(207, 225, 243));
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.bodyimg{
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.bodyA{
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.paraA{
+    font-size: larger;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.grid2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.grid2 img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+
+    justify-content: space-evenly;
+}
+
+.origami2{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 255px;
+    font-family: fantasy;
+
+    justify-content: space-evenly;
+}
